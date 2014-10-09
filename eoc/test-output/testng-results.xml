@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="181466" started-at="2014-10-09T04:38:32Z" finished-at="2014-10-09T04:41:34Z">
+    <groups>
+    </groups>
+    <test name="exampletest1" duration-ms="48101" started-at="2014-10-09T04:38:32Z" finished-at="2014-10-09T04:39:21Z">
+      <class name="ortho.eoc.kneeOperationData">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="beforetest" is-config="true" duration-ms="9876" started-at="2014-10-09T10:08:32Z" finished-at="2014-10-09T10:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test_patientsearch()[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="test_patientsearch" duration-ms="4728" started-at="2014-10-09T10:08:42Z" finished-at="2014-10-09T10:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_patientsearch -->
+        <test-method status="PASS" signature="treatment_select()[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="treatment_select" duration-ms="4585" started-at="2014-10-09T10:08:47Z" finished-at="2014-10-09T10:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treatment_select -->
+        <test-method status="PASS" signature="review_select()[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="review_select" duration-ms="4488" started-at="2014-10-09T10:08:52Z" finished-at="2014-10-09T10:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review_select -->
+        <test-method status="FAIL" signature="hipOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="hipOperation" duration-ms="21530" started-at="2014-10-09T10:08:56Z" data-provider="DP1" finished-at="2014-10-09T10:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Operation Date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Operation Description]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Code]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Operation Indication]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Patient Position]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Knee Position]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hospital at which surgery undertaken]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Lead Surgeon]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Grade of Lead Surgeon]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2nd Surgeon]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Grade of 2nd Surgeon]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1st Assistant]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2nd Assistant]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1st Assistant]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2nd Assistant]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Pre-op antibiotics]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Tourniquet time(mins)]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Surgical Approach]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Fat Pad]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Dose]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Patella Preparation]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Reduction]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Findings]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[patello-femoral joint]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[medial tib-fem joint]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[lateral tib-fem joint]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[synovium]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[PCL]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[ACL]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Per-op blood loss( ml)]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Units transfused per-op]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[Pre-op Hb( g/dl)]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[Post-op blood loss( ml)]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[Units transfused post-op]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Post-op Hb( g/dl)]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[Deep layer]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[Skin]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Subcutaneous fat]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[Dressings]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[Fascia lata]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[Suture]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[No.of drains]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Mobilise]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[Check X-Rays]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[Remove sutures]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[ThromboName]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[ThromboDose]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[ThromboFrequency]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[ThromboDuration]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[AntibioticsName]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[AntibioticsDose]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[AntibioticsFrequency]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[AntibioticsDuration]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Knee replacement type]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Femoral component size]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[Femoral fixation]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Fem plug type]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[Manufacturer]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[Femoral Stem]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[Femoral Stem Diameter]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Fem Stem Length]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[Fem plug size]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[Tibial component size]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[Tibial fixation]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[Tibial plug type]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[Tibial Insert]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[Tibial screws-No]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[Tibial Stem]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[Tibial Stem Diameter]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[Tibial plug size]]>
+              </value>
+            </param>
+            <param index="70">
+              <value>
+                <![CDATA[Tibial Stem Length]]>
+              </value>
+            </param>
+            <param index="71">
+              <value>
+                <![CDATA[Patella Resurfaced]]>
+              </value>
+            </param>
+            <param index="72">
+              <value>
+                <![CDATA[Patella component thickness]]>
+              </value>
+            </param>
+            <param index="73">
+              <value>
+                <![CDATA[Pat component size]]>
+              </value>
+            </param>
+            <param index="74">
+              <value>
+                <![CDATA[Patella fixation]]>
+              </value>
+            </param>
+            <param index="75">
+              <value>
+                <![CDATA[Notes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: No.of drains
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'kmmedical', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: No.of drains
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'kmmedical', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at ortho.eoc.kneeOperationData.hipOperation(kneeOperationData.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hipOperation -->
+        <test-method status="FAIL" signature="hipOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ortho.eoc.kneeOperationData@7da288]" name="hipOperation" duration-ms="2559" started-at="2014-10-09T10:09:18Z" data-provider="DP1" finished-at="2014-10-09T10:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19-09-2014]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Primary cemented TKR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bilateral Bunions]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[supine]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[flexed to 90 degrees]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Epsom]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ Bardakos,N]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visiting Surgeon]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ Millington,J]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Senior House Officer]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Mohammad ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Sinha ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Blair ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Enriquez ]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Vancomycin]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[10:00:00]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Surgical Approach]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Preserved]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[2500 IU]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[The patella was left intact]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Stable]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Findings]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Healthy]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Slightly worn]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Moderate OA]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Diffuse synovitis]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[intact and healthy]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[ruptured]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[48.9 ml per surgical]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[ 12 g/dL]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[48.9 ml per surgical]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[ 12 g/dL]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[Not recorded]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[2/0 Prolene]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[2/0 Prolene]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[pressure dressing]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[3/0 Prolene]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[3/0 Prolene]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Not recorded]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[24 hours]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[Heparin]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[2500 IU]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Not recorded]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[24 hours]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Erythromycin ]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[2500 IU]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Not recorded]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[24 hours]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Insall Burstein II]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[size 11]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[Uncemented]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Hardinge]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[Finsbury Orthopaedics]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[uncemented]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[15mm]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[110mm]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[size 10]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[Uncemented]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[Exeter]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[14mm]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[uncemented]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[15mm]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="70">
+              <value>
+                <![CDATA[110mm]]>
+              </value>
+            </param>
+            <param index="71">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="72">
+              <value>
+                <![CDATA[10mm]]>
+              </value>
+            </param>
+            <param index="73">
+              <value>
+                <![CDATA[35mm]]>
+              </value>
+            </param>
+            <param index="74">
+              <value>
+                <![CDATA[Uncemented]]>
+              </value>
+            </param>
+            <param index="75">
+              <value>
+                <![CDATA[Notes on TKR Preparation/implantation]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: Please save changes before exiting the page
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'kmmedical', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1dac6072-2270-4291-b459-372d897410a2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please save changes before exiting the page
+Build info: version: '2.43.0', revision: 'accb3003b9fb8f7cae30f9669b4c594a065396a6', time: '2014-09-09 22:22:51'
+System info: host: 'kmmedical', ip: '192.168.1.11', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 1dac6072-2270-4291-b459-372d897410a2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ortho.eoc.kneeOperationData.hipOperation(kneeOperationData.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hipOperation -->
+      </class> <!-- ortho.eoc.kneeOperationData -->
+    </test> <!-- exampletest1 -->
+    <test name="exampletest2" duration-ms="76420" started-at="2014-10-09T04:39:21Z" finished-at="2014-10-09T04:40:37Z">
+      <class name="ortho.eoc.xrayanalysis">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ortho.eoc.xrayanalysis@4000e7]" name="setup" is-config="true" duration-ms="5302" started-at="2014-10-09T10:09:21Z" finished-at="2014-10-09T10:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ortho.eoc.xrayanalysis@4000e7]" name="f" duration-ms="2" started-at="2014-10-09T10:09:26Z" finished-at="2014-10-09T10:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ortho.eoc.xrayanalysis@4000e7]" name="search" duration-ms="70985" started-at="2014-10-09T10:09:26Z" data-provider="data-provider" finished-at="2014-10-09T10:10:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Right  Knee  Tenotomy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pre-operative Assessment]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10102014]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[e]]>
+              </value>
+            </param>
+            <param index="70">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="71">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="72">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+            <param index="73">
+              <value>
+                <![CDATA[Below tip of Greater Trochanter                ]]>
+              </value>
+            </param>
+            <param index="74">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="75">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="76">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="77">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- ortho.eoc.xrayanalysis -->
+    </test> <!-- exampletest2 -->
+    <test name="exampletest3" duration-ms="56903" started-at="2014-10-09T04:40:37Z" finished-at="2014-10-09T04:41:34Z">
+      <class name="ortho.eoc.NonarthScore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ortho.eoc.NonarthScore@4632db]" name="setup" is-config="true" duration-ms="5771" started-at="2014-10-09T10:10:37Z" finished-at="2014-10-09T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ortho.eoc.NonarthScore@4632db]" name="search" duration-ms="51016" started-at="2014-10-09T10:10:43Z" data-provider="data-provider" finished-at="2014-10-09T10:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Left  Hip  Stabilistation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[In-Patient Stay]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20122014]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Mild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- ortho.eoc.NonarthScore -->
+    </test> <!-- exampletest3 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
